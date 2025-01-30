@@ -1,4 +1,4 @@
-from dataloading import loader
+from .dataloading import loader
 import pandas as pd 
 PATH = r"model\car_price_prediction.csv"
 loader = loader()
